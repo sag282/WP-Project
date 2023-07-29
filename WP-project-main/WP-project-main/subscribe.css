@@ -1,0 +1,75 @@
+
+.formPage_header{
+    margin-top: 5mm;
+}
+.formPage_header h1{
+    text-align: center;
+    color: black
+}
+
+.form{
+
+    
+    margin-top: 20mm ;
+    margin-bottom: 2mm;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 5px solid red;
+    background-color: #24262b;
+   
+}
+.form_content{
+
+    font-size: 25px;
+    color: white;
+    margin-top: 10mm;
+    margin-bottom: 5mm;
+    margin-left: 20%;
+    
+}
+
+.content_container{
+
+    position: relative;
+}
+
+.form_content input[type=text]{
+    width: 77%;
+    height: 10mm;
+    font-size: 20px;
+}
+.form_content input[type=password]{
+    width: 77%;
+    height: 10mm;
+    font-size: 20px;
+}
+.form_content input[type=email]{
+    width: 77%;
+    height: 10mm;
+    font-size: 20px;
+}
+
+.form_content input[type=submit]{
+
+    
+    width: 77%;
+    background-color: inherit;
+    color: red;
+    padding: 6px 14px;
+    border: 2px solid red;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 15mm;
+    margin-right: 8mm;
+    
+}
+.form_content input[type=submit]:hover{
+    
+    background-color: red;
+    opacity: 0.8;
+    color: white;
+    transition: 0.4s;
+
+}
+

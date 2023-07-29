@@ -1,0 +1,40 @@
+
+
+.list{
+    
+    text-align: center;
+    padding-top: 5mm;
+    margin-bottom: 10mm;
+    
+}
+.list_header{
+    
+    margin-top: 15mm;
+    font-size: 40px;
+    color: red;
+}
+/* .list_content{
+    
+} */
+.release{
+    margin-top: 10mm;
+    font-size: 25px;
+    
+}
+.info{
+
+    margin-top: 10mm; 
+    font-size: 20px; 
+    margin-left: 10mm; 
+    margin-right: 10mm;
+}
+
+.info p{
+    text-align: center;
+}
+
+
+.list_content iframe{
+    margin-top: 10mm;
+    font-size: 25px;
+}

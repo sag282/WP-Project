@@ -1,0 +1,154 @@
+ul {
+  
+    
+    list-style-type: none;
+    overflow: hidden;
+   
+    /* border-radius: 12px;  */
+    
+    width: 100%;
+  
+
+  }
+  
+  li {
+    display: inline-block;
+    float: none;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    
+   
+    padding: 14px 16px;
+    padding-left: 5mm;
+    padding-right: 5mm;
+    text-decoration: none;
+  }
+  li a:hover {
+    
+    color: red;
+    /* box-shadow: 4px 4px; */
+    transition: 0.4s;
+  }
+  
+  li 
+  
+  .Hdiv{
+      text-align: center;
+  }
+  
+  .Idiv{
+      float: right;
+      padding-top: 2.5mm;
+      padding-right: 2mm;
+  }
+  .search{
+      float: right; 
+      padding-top: 3mm;
+      padding-right: 4mm;
+  }
+  
+  
+  body{
+      /* background-image: url("/Users/amoghdeshpande/Desktop/Html/Project/zFUkST.jpeg"); */
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+      
+      /* background-color: #333; */
+      
+  }
+  
+  .header{
+      min-height: 10vh;
+      width: 100%;
+      /* background-color:rgba(255, 0, 0, 0.87); */
+      background-color: #24262b;
+       opacity:1;
+      text-align: center;
+      padding-top: 3mm;
+      color:whitesmoke;
+      /* background-image: url("https://media.giphy.com/media/d3yw6oKLA15dPMGY/giphy.gif");
+      background-repeat: no-repeat;
+      background-size: 5%;
+      background-position: 115mm; */
+      /* position: fixed; */
+      
+  }
+  
+  
+  
+  
+  ul.title{
+    float: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black; 
+    /* border-radius: 12px;  */
+    opacity: 1; 
+  }
+  .dropdown{
+    float: left;
+    overflow: hidden;
+    
+    
+  }
+  
+  .dropdown .dropbtn {
+    display: inline-block;
+    position: inherit;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    padding-left: 5mm;
+    padding-right: 5mm;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    
+  }
+  .dropdown:hover .dropbtn {
+    color: red;
+    
+  }
+  .dropdown-content {
+    display: none; 
+    position: absolute;
+    /* background-color: white; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    color: red;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .playstation:hover{
+    color: blue ;
+  }
+  .xbox:hover{
+    color: rgb(27, 177, 27);
+  }
+  .desktop:hover{
+  
+    color: rgb(199, 202, 13);
+  }
